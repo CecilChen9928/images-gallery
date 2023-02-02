@@ -3,7 +3,7 @@ import { Button, FormControl, Navbar } from 'react-bootstrap'
 
 const Header = ({title}) => {
     return (
-        <Navbar bg="dark" variant="light">
+        <Navbar bg="light" variant="light">
             <Navbar.Brand href="/">{title}</Navbar.Brand>
         </Navbar>
     )
